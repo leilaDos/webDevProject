@@ -1,4 +1,9 @@
 # webDevProject
+# 17BD
+# Team members: Leila Doskumbayeva
+#               Rustem Kaipzhan
+#               Madi Abdykarim
+#               Abzal Myrzash
 Ever experienced struggling to get ready for the camp? 
 Our website enables functionality that is unique to this specific area for our country. 
 Beside the welcoming home page where you should choose the city by interest, there are pages that provide: 
