@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
+    background-size: 150px; 
+    height: 2048px;;
+}
+#head{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#menu{
+    min-width: 100%;
+    list-style: none;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px; 
+        
+}
+#menu li{
+    display: inline;
+    margin-right: 30px;
+}
+#menu a{
+    text-decoration: none;
+    font-family: 'Helvetica';
+    color: #777;
+    font-size: 13px;
+    font-weight: normal;
+}
+#forest{
+     margin-left: auto;
+    margin-right: auto;
+}
+#forest img{
+    position: absolute;
+    width: 100%;
+}
+#gif{
+    position: fixed;
+    max-width: 80px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+#name{
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    margin-left: 40%;
+    margin-top: 250px;
+    font-size: 72px; 
+    position: absolute;
+    color: white;
+    z-index: 2;
+}
+
+#content {
+	float: right;
+	width: 620px;
+	padding: 30px 0px 0px 0px;
+}
+
+.post {
+	margin-bottom: 15px;
+}
+
+
+.post .title {
+	margin-bottom: 10px;
+	padding: 12px 0 0 0px;
+	letter-spacing: -.5px;
+	color: #000000;
+}
+
+.post .title a {
+	color: #A7430F;
+	border: none;
+}
+
+.post .meta {
+	height: 30px;
+	border-bottom: 1px solid #E9E3CB;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.post .meta .date {
+	float: left;
+	height: 24px;
+	padding: 3px 0px;
+	color: #464032;
+}
+
+.post .meta .posted {
+	float: right;
+	height: 24px;
+	padding: 3px 15px;
+	background: #E9E3CB;
+	color: #464032;
+}
+
+.post .meta a {
+	color: #464032;
+}
+
+.post .entry {
+	padding: 0px 0px 20px 0px;
+	padding-bottom: 20px;
+	text-align: justify;
+}
+
+.links {
+	padding-top: 20px;
+	font-size: 12px;
+	font-weight: bold;
+}
