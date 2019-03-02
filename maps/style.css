@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
+    background-size: 150px; 
+    height: 2048px;;
+}
+#head{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#menu{
+    min-width: 100%;
+    list-style: none;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px; 
+        
+}
+#menu li{
+    display: inline;
+    margin-right: 30px;
+}
+#menu a{
+    text-decoration: none;
+    font-family: 'Helvetica';
+    color: #777;
+    font-size: 13px;
+    font-weight: normal;
+}
+#forest{
+    margin-left: auto;
+    margin-right: auto;
+}
+#forest img{
+    position: absolute;
+    width: 100%;
+}
+#gif{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    max-width: 80px;
+}
+#name{
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    margin-left: 40%;
+    margin-top: 250px;
+    font-size: 72px; 
+    position: absolute;
+    color: white;
+    z-index: 2;
+}
+
+
+#map{
+    max-width: 100%;
+    min-width: 100%;
+}
