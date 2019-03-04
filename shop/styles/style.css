@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
+    background-size: 150px; 
+    height: 2048px;;
+}
+#head{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#menu{
+    min-width: 100%;
+    list-style: none;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px; 
+        
+}
+#menu li{
+    display: inline;
+    margin-right: 30px;
+}
+#menu a{
+    text-decoration: none;
+    font-family: 'Helvetica';
+    color: #777;
+    font-size: 13px;
+    font-weight: normal;
+}
+#gif{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    max-width: 80px;
+}
+#firstBlock {
+    border: 1px solid red;
+
+}
+
+#firstBlock input {
+    margin-left: 80px;
+    border-radius: 2px;
+}
+
+#secondBlock {
+    height: 40px;
+    width: 500px;
+    margin-left: 500px;
+    display: flex;
+    border: 1px solid green;
+    
+}
+#secondBlock div {
+    width: 100px;
+    border: 1px solid black;
+}
+#secondBlock div:hover {
+    border-bottom: 3px solid goldenrod;
+    color: goldenrod;
+    cursor: default;
+}
+#secondBlock div p {
+    text-align: center;
+    
+}
+#thirdBlock {
+    
+    position: relative;
+    bottom: 42px; /* saving the bottom because previous block has margin-left (bottom 42)*/
+    width: 498px;
+    height: 40px;
+    border: 1px solid yellow;
+    
+}
+
+#fourthBlock {
+    border: 1px solid black;
+    position: relative;
+    bottom: 42px; /* bottom 42 */
+    height: 400px;
+    width: 300px;
+}
+
+#fifthBlock {
+    border: 1px solid pink;
+    position: relative;
+    bottom: 443px;
+    margin-left: 302px;
+    height: 400px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    
+
+}
+    
+
